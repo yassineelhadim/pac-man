@@ -1,0 +1,28 @@
+# Note: this was made by AI and you shouldn't
+# take it as if it was final version
+# I could and probably change it in the future
+# Just note that it will not affect the code
+# Because any changes here will be parsed so don't worry
+
+{
+    "highscore_filename": "highscore.json", # just another comment for testing
+    "seed": 42,
+    "lives": 3,
+    "pacgum": 42,
+    "points_per_pacgum": 10,
+    "points_per_super_pacgum": 50,
+    "points_per_ghost": 200,
+    "level_max_time": 90,
+    "levels": [
+        { "width": 21, "height": 21 },
+        { "width": 21, "height": 21 },
+        { "width": 25, "height": 25 },
+        { "width": 25, "height": 25 },
+        { "width": 25, "height": 25 },
+        { "width": 29, "height": 29 },
+        { "width": 29, "height": 29 },
+        { "width": 29, "height": 29 },
+        { "width": 33, "height": 33 },
+        { "width": 33, "height": 33 }
+    ]
+}
