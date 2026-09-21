@@ -5,14 +5,14 @@
 # Because any changes here will be parsed so don't worry
 
 {
-    "highscore_filename": "highscore.json", # just another comment for testing
+    "highscore_filename": "highscore.json", # the file where we store the score
     "seed": 42,
-    "lives": 3,
-    "pacgum": 42,
-    "points_per_pacgum": 10,
+    "lives": 3, # how many hearts you start with
+    "pacgum": 42, # the number of the things that pac-man eats
+    "points_per_pacgum": 10, # the score that pac-man
     "points_per_super_pacgum": 50,
     "points_per_ghost": 200,
-    "level_max_time": 90,
+    "level_max_time": 0,
     "levels": [
         { "width": 21, "height": 21 },
         { "width": 21, "height": 21 },
@@ -24,5 +24,6 @@
         { "width": 29, "height": 29 },
         { "width": 33, "height": 33 },
         { "width": 33, "height": 33 }
-    ]
+    ] # how many levels you have and each width and height is 
+    # a config for one level
 }
