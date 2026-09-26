@@ -2,7 +2,7 @@ from parser import MainConfig, LevelConfig
 from typing import List, Dict, Any, Optional
 
 
-class PacConfig():
+class PacConfig:
     def __init__(self, main_config: MainConfig,
                  lvl_config: LevelConfig) -> None:
         self.highscore_filename = main_config.highscore_filename

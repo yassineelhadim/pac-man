@@ -6,7 +6,7 @@ install:
 	@uv sync
 
 run:
-	@python3 pac-man.py config.json
+	@PYTHONPATH=. python3 src/pac_man.py config.json
 
 debug:
 	@python3 -m pudb pac-man.py config.json

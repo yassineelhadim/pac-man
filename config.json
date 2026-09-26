@@ -12,7 +12,7 @@
     "points_per_pacgum": 10, # the score that pac-man
     "points_per_super_pacgum": 50,
     "points_per_ghost": 200,
-    "level_max_time": 0,
+    "level_max_time": 90,
     "levels": [
         { "width": 21, "height": 21 },
         { "width": 21, "height": 21 },

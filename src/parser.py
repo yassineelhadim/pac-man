@@ -108,7 +108,7 @@ def the_parser(config: Dict) -> PacConfig | None:
     main_config = MainConfig.model_validate(config)
     lvl_config = LevelConfig.model_validate(config)
     pac_config = PacConfig(main_config, lvl_config)
-    print(main_config)
-    print(f'\n\n {lvl_config}')
-    print(f"\n\n\n the pac config is: \n {pac_config}")
+    # print(main_config)
+    # print(f'\n\n {lvl_config}')
+    # print(f"\n\n\n the pac config is: \n {pac_config}")
     return pac_config
